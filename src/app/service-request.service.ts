@@ -33,9 +33,9 @@ export class ServiceRequestService {
       this.http
         .get<ApiResponse>(
           "https://api.github.com/users/" +
-            username +
-            "?access_token=" +
-            "bf04e1750690a4ffa6030fe8c4920ece706e8f1d"
+          username +
+          "?access_token=" +
+          "bf04e1750690a4ffa6030fe8c4920ece706e8f1d"
         )
         .subscribe(data => {
           this.repos.login = data.login;
@@ -62,9 +62,9 @@ export class ServiceRequestService {
     this.http
       .get<ApiResponse>(
         "https://api.github.com/users/" +
-          username +
-          "?access_token=" +
-          "bf04e1750690a4ffa6030fe8c4920ece706e8f1d"
+        username +
+        "?access_token=" +
+        "bf04e1750690a4ffa6030fe8c4920ece706e8f1d"
       )
       .subscribe(data => {
         this.items = Response;

@@ -28,9 +28,9 @@ export class UserComponent implements OnInit {
     this.http
       .get<ApiResponse>(
         "https://api.github.com/users/" +
-          rep.username +
-          "?access_token=" +
-          "bf04e1750690a4ffa6030fe8c4920ece706e8f1d"
+        rep.username +
+        "?access_token=" +
+        "bf04e1750690a4ffa6030fe8c4920ece706e8f1d"
       )
       .subscribe(data => {
         this.repos.login = data.login;
@@ -47,6 +47,6 @@ export class UserComponent implements OnInit {
   }
 
   ngOnInit() {
-      
+
   }
 }

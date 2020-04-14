@@ -6,6 +6,7 @@ import { User } from "../user";
   templateUrl: "./user-form.component.html",
   styleUrls: ["./user-form.component.css"]
 })
+
 export class UserFormComponent implements OnInit {
   newUser = new User("");
   @Output() addUser = new EventEmitter<User>();
@@ -13,7 +14,7 @@ export class UserFormComponent implements OnInit {
   submitUser() {
     this.addUser.emit(this.newUser);
   }
-  constructor() {}
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 }

@@ -7,7 +7,6 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { UserFormComponent } from "./user-form/user-form.component";
 import { UserComponent } from "./user/user.component";
-import { HttpClient } from "selenium-webdriver/http";
 import { StrikethroughDirective } from "./strikethrough.directive";
 
 import { RouterModule, Routes } from "@angular/router";
@@ -25,7 +24,7 @@ const routes: Routes = [
     UserFormComponent,
     UserComponent,
     StrikethroughDirective,
-    
+
     DateCountPipe,
     NavbarComponent,
     NotFoundComponent
@@ -40,5 +39,6 @@ const routes: Routes = [
   providers: [AlertsService], //add service to providers
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+
+export class AppModule { }
 
