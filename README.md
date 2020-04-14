@@ -5,7 +5,7 @@
 
 ## Set up instructions
 * Open Terminal {Ctrl+Alt+T}
-* Git clone 
+* Git clone : https://github.com/SaintieMonte10/Github-Search.git
 * Extract to your preferd location
 * use atom . or code . to open the cloned repo on Atom or  Vs-code respectively
 * Have internet connection
@@ -17,11 +17,13 @@
 
 ## BDD
 
+
 ## Live link
+ https://saintiemonte10.github.io/Github-Search/
+
 
 ## contact info
-
-
+Email: claremonte53@gmail.com
 
 ## GithubSearch
 
