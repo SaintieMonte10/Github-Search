@@ -1,12 +1,11 @@
-import { Pipe, PipeTransform } from '@angular/core';
-
-@Pipe({
-  name: 'dateCount'
-})
-export class DateCountPipe implements PipeTransform {
-  today: number = Date.now();
-  transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
-  }
-
+export class Repository {
+    constructor(
+        public login: string,
+        public public_repos: number,
+        public followers: number,
+        public following: number,
+        public created_at: Date,
+        public html_url: string,
+        public avatar_url
+    ) { }
 }
