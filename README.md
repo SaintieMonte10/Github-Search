@@ -1,3 +1,28 @@
+# Github-Search
+
+## Author
+ * Clare Richards
+
+## Set up instructions
+* Open Terminal {Ctrl+Alt+T}
+* Git clone 
+* Extract to your preferd location
+* use atom . or code . to open the cloned repo on Atom or  Vs-code respectively
+* Have internet connection
+
+## Technologies used
+* HTML
+* Css & Bootstrap
+* Angular
+
+## BDD
+
+## Live link
+
+## contact info
+
+
+
 ## GithubSearch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
