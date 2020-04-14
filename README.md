@@ -16,6 +16,8 @@
 * Angular
 
 ## BDD
+* Write the name you want to search on the bar and click enter.Searching the Github account you get to see the github profile and the you can explore more to see the github account.
+* At the landing page you can also see the number of followers you have and the people you are following.
 
 
 ## Live link
