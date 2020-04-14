@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+body{    
+    /* background-color: transparent; */
+    background-image: url("https://images.pexels.com/photos/277593/pexels-photo-277593.jpeg?cs=srgb&dl=architecture-black-and-white-challenge-chance-277593.jpg&fm=jpg");
+    /* background-position: fixed;  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: royalblue; */
+    -moz-background-size: cover;
+    -webkit-background-siz: cover;
+    /* background-size: 100%; */
+    background-size: 100%;
+   }
